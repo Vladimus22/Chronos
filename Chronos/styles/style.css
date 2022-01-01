@@ -1,0 +1,57 @@
+.timer-panel {  
+    display: flex;  
+    justify-content: center;
+    width: 1250px;
+    height: 235px;
+    background-image: url("../img/bg1.png");
+    box-shadow: inset 9px 14px 21px 1px rgba(255, 255, 255, 0.81);
+    border-radius: 38px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 150px;
+    color: white;
+}
+.reiwa-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    font-size: 45px;
+    font-family: 'Yuji Syuku', serif;
+}
+.reiwa-text-en {
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+}
+.circle {
+    color: #BC002D;
+}
+.timer-numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* .timer-panel-blur {
+    width: 1250px;
+    height: 235px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(159, 154, 154, 0.06) -3.62%, rgba(255, 255, 255, 0.9) 20.62%, rgba(86, 86, 86, 0) 37.4%);
+    filter: blur(56px);
+    border-radius: 38px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 150px;
+    z-index: 0;
+} */
+.days, .hours, .minutes, .seconds{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.days-title, .hours-title, .minutes-title, .seconds-title{
+    font-size: 25px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
